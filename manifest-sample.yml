@@ -1,0 +1,6 @@
+applications:
+- name:      hello-python
+  host:      hello-python-<unique-name>
+  memory:    128M
+  command:   python hello.py
+  buildpack: https://github.com/heroku/heroku-buildpack-python.git
